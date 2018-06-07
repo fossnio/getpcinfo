@@ -4,7 +4,7 @@ import subprocess
 import os
 import uuid
 
-JSON_URL = 'https://your_server/pcs.json'
+JSON_URL = 'https://your_server/pcr.json'
 n_name = ''
 mac_addr = hex(uuid.getnode()).replace('0x', '').upper()
 response  = urllib.request.urlopen(JSON_URL)
